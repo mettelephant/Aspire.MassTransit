@@ -1,0 +1,9 @@
+﻿#projects: 
+#  spacex: 
+#    schema: https://spacex-production.up.railway.app/
+#  starwars: 
+#    schema: https://swapi-graphql.netlify.app/.netlify/functions/index
+
+schema:
+#  - https://spacex-production.up.railway.app/
+  - https://swapi-graphql.netlify.app/.netlify/functions/index

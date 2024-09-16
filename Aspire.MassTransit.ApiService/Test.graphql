@@ -1,0 +1,22 @@
+﻿### Query all films
+query getAllFilms {
+    allFilms {
+        films {
+            title
+            episodeID
+            director
+            producers
+            releaseDate
+        }
+    }
+}
+### Query all people
+query getAllPeople {
+    allPeople {
+        people {
+            name
+            birthYear
+            eyeColor
+        }
+    }
+}

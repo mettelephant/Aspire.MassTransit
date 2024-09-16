@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.MassTransit.ApiService", "Aspire.MassTransit.ApiService\Aspire.MassTransit.ApiService.csproj", "{00F0E4E4-0562-40F3-A4D9-57C51AA17AA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.MassTransit.ServiceDefaults", "Aspire.MassTransit.ServiceDefaults\Aspire.MassTransit.ServiceDefaults.csproj", "{F921A847-232B-491C-8BF7-2559A1B3A8BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.MassTransit.AppHost", "Aspire.MassTransit.AppHost\Aspire.MassTransit.AppHost.csproj", "{26E1991E-447B-49FF-8F31-6563E63E2399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.MassTransit.Web", "Aspire.MassTransit.Web\Aspire.MassTransit.Web.csproj", "{F9027C1E-9431-4520-8103-AB1752CB96CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.MassTransit.Tests", "Aspire.MassTransit.Tests\Aspire.MassTransit.Tests.csproj", "{7B49471E-AF2F-44D6-89B6-DCF611EEDA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.MassTransit.Producer", "Aspire.MassTransit.Producer\Aspire.MassTransit.Producer.csproj", "{59DD6E80-CA3A-4A37-9881-1B64837548F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00F0E4E4-0562-40F3-A4D9-57C51AA17AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F0E4E4-0562-40F3-A4D9-57C51AA17AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F0E4E4-0562-40F3-A4D9-57C51AA17AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F0E4E4-0562-40F3-A4D9-57C51AA17AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F921A847-232B-491C-8BF7-2559A1B3A8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F921A847-232B-491C-8BF7-2559A1B3A8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F921A847-232B-491C-8BF7-2559A1B3A8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F921A847-232B-491C-8BF7-2559A1B3A8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E1991E-447B-49FF-8F31-6563E63E2399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E1991E-447B-49FF-8F31-6563E63E2399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E1991E-447B-49FF-8F31-6563E63E2399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E1991E-447B-49FF-8F31-6563E63E2399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9027C1E-9431-4520-8103-AB1752CB96CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9027C1E-9431-4520-8103-AB1752CB96CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9027C1E-9431-4520-8103-AB1752CB96CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9027C1E-9431-4520-8103-AB1752CB96CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B49471E-AF2F-44D6-89B6-DCF611EEDA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B49471E-AF2F-44D6-89B6-DCF611EEDA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B49471E-AF2F-44D6-89B6-DCF611EEDA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B49471E-AF2F-44D6-89B6-DCF611EEDA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59DD6E80-CA3A-4A37-9881-1B64837548F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DD6E80-CA3A-4A37-9881-1B64837548F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DD6E80-CA3A-4A37-9881-1B64837548F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DD6E80-CA3A-4A37-9881-1B64837548F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

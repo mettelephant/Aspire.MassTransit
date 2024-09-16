@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="type" value="GRAPHQL" />
+                </bodyState>
+              </option>
+              <option name="id" value="8f9c99f7-c01a-40f7-a5a0-6a605055b6ff" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="https://spacex-production.up.railway.app/" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="environmentGroups">
+            <list>
+              <environmentGroupState>
+                <option name="name" value="Default" />
+              </environmentGroupState>
+            </list>
+          </option>
+          <option name="folders">
+            <list>
+              <folderState>
+                <option name="id" value="a2f13fef-7b54-49c2-bfb8-298f3345aaa6" />
+                <option name="name" value="GraphQL" />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="graphQL">
+                            <graphQLState>
+                              <option name="query" value="query getAllFilms {&#10;    allFilms {&#10;        films {&#10;            title&#10;        }&#10;    }&#10;}" />
+                            </graphQLState>
+                          </option>
+                          <option name="type" value="GRAPHQL" />
+                        </bodyState>
+                      </option>
+                      <option name="id" value="a951a3bd-15eb-42f3-af3b-a6f4904e0299" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="SwGetAllFilms" />
+                      <option name="sortWeight" value="1000000" />
+                      <option name="url" value="{{swurl}}" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="graphQL">
+                            <graphQLState>
+                              <option name="query" value="query {&#10;    launchesPast(limit: 10) {&#10;        mission_name&#10;        launch_date_local&#10;        launch_site {&#10;            site_name_long&#10;        }&#10;        links {&#10;            article_link&#10;            video_link&#10;        }&#10;        rocket {&#10;            rocket_name&#10;        }&#10;    }&#10;}&#10;" />
+                              <option name="variables" value="{&#10;  &quot;find&quot;: {&#10;    &quot;status&quot;: &quot;destroyed&quot;&#10;  }&#10;}" />
+                            </graphQLState>
+                          </option>
+                          <option name="type" value="GRAPHQL" />
+                        </bodyState>
+                      </option>
+                      <option name="id" value="60f88643-0bf5-4acd-83e0-f501862aa629" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="New Request" />
+                      <option name="sortWeight" value="2000000" />
+                      <option name="url" value="{{url}}" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="1000000" />
+                <option name="variables">
+                  <variablesState>
+                    <option name="json" value="{&#10;  url: &quot;https://spacex-production.up.railway.app/&quot;,&#10;  swurl: &quot;https://swapi-graphql.netlify.app/.netlify/functions/index&quot;&#10;}" />
+                  </variablesState>
+                </option>
+              </folderState>
+            </list>
+          </option>
+          <option name="id" value="41e2e2a9-65d8-4eb1-8e4c-f60e031c9c08" />
+          <option name="name" value="spacex" />
+          <option name="selectedEnvironmentIds">
+            <map>
+              <entry key="default" />
+            </map>
+          </option>
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="autoSync" value="true" />
+              <option name="folderPath" value="Aspire.MassTransit.ApiService" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="0687660b-f9e0-44d4-aedb-9a2000d84bdb" />
+    <option name="version" value="3" />
+  </component>
+</project>

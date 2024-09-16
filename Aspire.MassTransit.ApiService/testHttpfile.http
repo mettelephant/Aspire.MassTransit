@@ -1,0 +1,17 @@
+﻿### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=JetBrains Rider
+
+### Request to get GraphQL Schema
+// Our server works with the following GraphQL schema
+GRAPHQL http://{{$exampleServer}}/graphql
+
+>> {{$historyFolder}}/examples.graphqls
+> {%
+    client.global.set("exampleServer", response.body.Data)
+ %}
+
+### Testing two
+GET http://{{$exampleServer}}/test2
+
+{{$exampleServer}}
