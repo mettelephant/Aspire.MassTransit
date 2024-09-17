@@ -1,0 +1,6 @@
+@Aspire.MassTransit.GraphQL_HostAddress = http://localhost:5147
+
+GET {{Aspire.MassTransit.GraphQL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
