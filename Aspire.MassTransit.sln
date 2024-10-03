@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.MassTransit.Producer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.MassTransit.GraphQL", "Aspire.MassTransit.GraphQL\Aspire.MassTransit.GraphQL.csproj", "{ABC4DE30-56B8-4D6D-9863-A166A5960C7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.MassTransit.Migrator", "Aspire.MassTransit.Migrator\Aspire.MassTransit.Migrator.csproj", "{929D2DF1-A795-4C73-ABA5-470AACDE59C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{ABC4DE30-56B8-4D6D-9863-A166A5960C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABC4DE30-56B8-4D6D-9863-A166A5960C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABC4DE30-56B8-4D6D-9863-A166A5960C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929D2DF1-A795-4C73-ABA5-470AACDE59C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929D2DF1-A795-4C73-ABA5-470AACDE59C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929D2DF1-A795-4C73-ABA5-470AACDE59C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929D2DF1-A795-4C73-ABA5-470AACDE59C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -19,6 +19,9 @@ builder.Services.AddMassTransit(x =>
     });
 });
 
+builder.AddNpgsqlDbContext<MyDbContext>("ApiDb");
+builder.EnrichNpgsqlDbContext<MyDbContext>();
+
 // Add services to the container.
 builder.Services.AddProblemDetails();
 

@@ -11,17 +11,18 @@
 
     <ItemGroup>
         <ProjectReference Include="..\Aspire.MassTransit.ApiService\Aspire.MassTransit.ApiService.csproj"/>
+        <ProjectReference Include="..\Aspire.MassTransit.Migrator\Aspire.MassTransit.Migrator.csproj" />
         <ProjectReference Include="..\Aspire.MassTransit.Producer\Aspire.MassTransit.Producer.csproj" />
         <ProjectReference Include="..\Aspire.MassTransit.Web\Aspire.MassTransit.Web.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Aspire.Hosting" Version="8.2.0" />
-        <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.0" />
-        <PackageReference Include="Aspire.Hosting.Kafka" Version="8.2.0" />
-        <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="8.2.0" />
-        <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="8.2.0" />
-        <PackageReference Include="Aspire.Hosting.Redis" Version="8.2.0" />
+        <PackageReference Include="Aspire.Hosting" Version="8.2.1" />
+        <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.1" />
+        <PackageReference Include="Aspire.Hosting.Kafka" Version="8.2.1" />
+        <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="8.2.1" />
+        <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="8.2.1" />
+        <PackageReference Include="Aspire.Hosting.Redis" Version="8.2.1" />
     </ItemGroup>
 
 </Project>
